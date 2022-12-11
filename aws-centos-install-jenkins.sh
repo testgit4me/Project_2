@@ -6,6 +6,7 @@ sudo amazon-linux-extras install epel -y
 sudo amazon-linux-extras install java-openjdk11 -y
 sudo yum install jenkins -y
 sudo yum install tmux -y
+sudo yum install mc -y
 sudo systemctl start jenkins
 sudo systemctl enable jenkins
 sudo systemctl status jenkins
